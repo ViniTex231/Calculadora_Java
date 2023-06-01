@@ -14,6 +14,8 @@ public class cpf {
         System.out.print("Input your CPF>> ");
         cpfString = tec.nextLine();
 
+        tec.close();
+
         cpfString = cpfString.replace(".", "");
         cpfString = cpfString.replace("-", "");
 
