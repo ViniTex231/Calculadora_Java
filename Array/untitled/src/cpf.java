@@ -22,11 +22,6 @@ public class cpf {
         for (int i=0; i<cpfString.length(); i++) {
             cpf[i] = Character.getNumericValue(cpfString.charAt(i));
         }
-        
-        // for (int i=0; i < 9; i++) {
-        //     cpf[i] = tec.nextInt();
-        //     tec.nextLine();
-        // }
 
         // CHECK DIGITO 1
         for (int i=0; i < 9; i++) {
